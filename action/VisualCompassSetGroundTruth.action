@@ -7,12 +7,11 @@
 # In multiple mode a 360° field of view is needed. Therefore initially the head should be pointed at the opponents goal line,
 # then a series of triggering the visual compass and adjusting the head position by an offset starts.
 
+# TODO update docs
+
 # goal definition
 
 std_msgs/Header header
-
-# 0 points to the opponent goal line, 3.14 to the own goal line
-float32 orientation
 
 ---
 
