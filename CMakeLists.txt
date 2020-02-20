@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
   sensor_msgs
+  swri_profiler_msgs
 )
 
 add_action_files(
@@ -26,6 +27,7 @@ add_message_files(
   FootPressure.msg
   JointCommand.msg
   JointTorque.msg
+  ProfileDataStamped.msg
 )
 
 add_service_files(
@@ -40,6 +42,7 @@ generate_messages(
   actionlib_msgs
   std_msgs
   sensor_msgs
+  swri_profiler_msgs
 )
 
 catkin_package(
