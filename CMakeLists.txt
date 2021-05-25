@@ -20,19 +20,26 @@ add_action_files(
 
 add_message_files(
   FILES
-  ColorSpace.msg
+  ColorLookupTable.msg
   Config.msg
   Cpu.msg
   FootPressure.msg
   JointCommand.msg
   JointTorque.msg
   ReferenceFrame.msg
+  SupportState.msg
 )
 
 add_service_files(
    FILES
+   IMURanges.srv
+   ComplementaryFilterParams.srv
    ManualPenalize.srv
    FootScale.srv
+   Leds.srv
+   AccelerometerCalibration.srv
+   SetAccelerometerCalibrationThreshold.srv
+   SetRobotPose.srv
 )
 
 
