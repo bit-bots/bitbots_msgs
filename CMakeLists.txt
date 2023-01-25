@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Config.msg"
   "msg/Cpu.msg"
   "msg/Filesystem.msg"
+  "msg/Float32MultiArrayStamped.msg"
   "msg/FootPressure.msg"
   "msg/JointCommand.msg"
   "msg/JointTorque.msg"
